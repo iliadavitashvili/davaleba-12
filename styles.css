@@ -4,11 +4,12 @@
 
 body{
     padding: 0 30px;
-    margin: 0;
     margin-top: 10px;
+    
 }
 header{
     margin-bottom: 50px;
+    
 }
 header h2{
     width: 60%;
@@ -32,4 +33,5 @@ main{
     row-gap: 50px;
     column-gap: 10px;
     grid-template: repeat(3,auto)/repeat(2,auto);
+    max-width: 2000px;
 }
